@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class Login extends Utils {
 	
 	@Test
-	public void log_in(String browser) throws Exception {
+	public void log_in() throws Exception {
 		
 		xlSheetName = "Login";
 		xlWritePath = "excel-output//"+xlSheetName+".xls";
